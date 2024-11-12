@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <script src="main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de la Serpiente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menú Principal -->
+    <div id="main-menu">
+        <h1>Juego de la Serpiente</h1>
+        <button id="play-button">Jugar</button>
+        <button id="controls-button">Controles</button>
+    </div>
+
+    <!-- Pantalla de controles -->
+    <div id="controls-screen" class="hidden">
+        <h1>Controles</h1>
+        <p>Usa las teclas de flecha para mover la serpiente (Arriba, Abajo, Izquierda, Derecha).</p>
+        <button id="back-button">Volver</button>
+    </div>
+
+    <!-- Pantalla de juego -->
+    <div id="game-container" class="hidden">
+       <!-- Botón para volver al inicio -->
+<button id="restart-button" class="hidden">Volver al inicio</button>
+
+        <div id="game-controls">
+            <label for="speed-select">Elige la velocidad:</label>
+            <select id="speed-select">
+                <option value="slow">Lenta</option>
+                <option value="normal" selected>Normal</option>
+                <option value="fast">Rápida</option>
+            </select>
+        </div>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div>
+            <p>Score: <span id="score">0</span></p>
+        </div>
+        <div id="game-message">
+            <p>Presiona una tecla para empezar a jugar</p>
+        </div>
+        <div id="game-over-message" class="hidden">
+            <p>¡Juego Terminado! Tu Score fue: <span id="final-score"></span></p>
+        </div>
+    </div>
+
+</body>
+</html>
