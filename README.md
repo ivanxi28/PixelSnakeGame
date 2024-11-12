@@ -19,7 +19,7 @@ A classic, fun Snake game built using HTML, CSS, and JavaScript. Control the sna
 
 Click the link below to play the game online on GitHub Pages:
 
-[Play Snake Game](https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME/)
+[Play Snake Game](https://ivanxi28.github.io/PixelSnakeGame/)
 
 ## ⚙️ Customize Game Speed
 
@@ -34,4 +34,4 @@ If you’d like to run the game on your local machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+   git clone https://github.com/ivanxi28/PixelSnakeGame.git
